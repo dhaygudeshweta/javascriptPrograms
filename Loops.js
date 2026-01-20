@@ -13,10 +13,16 @@
 
 // program for guessing the write number game
 
-let gameNum=20;
-let userNum=prompt("Guess thenumber");
-while(userNum!=gameNum)
-{
-    userNum=prompt("you entered wrong number");
-}
-console.log("congratulations you enterd right number");
+// 
+
+
+
+
+
+// prompt user to enter their full name generate a username for them 
+// based on the input start username with @ follows by their full name 
+// and ending with the fullname length.
+
+let fullNmae=prompt("enter your fullname whithout spaces");
+let userName ="@" + fullNmae +fullNmae.length;
+console.log(userName);

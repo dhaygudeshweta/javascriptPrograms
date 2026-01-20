@@ -18,14 +18,9 @@
 //     color="light";
 //  }
 //  console.log(color);
-let num=prompt("enter a number");
-
-if (num%5===0)
+// let i=0;
+for(let i=0 ;i<=100;i++)
 {
-   console.log(num,"number is multiply by 5");
-
-}else
-{
-   console.log(num,"number is  NOT multiply by 5 ");
+    console.log("i is=",i);
 }
 
