@@ -55,7 +55,7 @@ if(index!==-1)
     comp.splice(index,1,"ola");
     console.log("after removing uber and adding ola in comp",comp);
 }
-   // console.log("after removing uber and adding ola in comp",comp);
+   
 
 
 
