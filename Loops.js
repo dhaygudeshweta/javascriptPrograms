@@ -23,6 +23,7 @@
 // based on the input start username with @ follows by their full name 
 // and ending with the fullname length.
 
-let fullNmae=prompt("enter your fullname whithout spaces");
-let userName ="@" + fullNmae +fullNmae.length;
-console.log(userName);
+// let fullNmae=prompt("enter your fullname whithout spaces");
+// let userName ="@" + fullNmae +fullNmae.length;
+// console.log(userName);
+
