@@ -46,11 +46,35 @@
 
 
 //create button element give it to text style and add into body
-let btn=document.createElement("button");
-btn.innerText="click me";
-btn.style.backgroundColor="red";
-btn.style.color="white";
- console.log(btn);
+// let btn=document.createElement("button");
+// btn.innerText="click me";
+// btn.style.backgroundColor="red";
+// btn.style.color="white";
+//  console.log(btn);
 
 
-document.querySelector("body").prepend(btn);
+// document.querySelector("body").prepend(btn);
+
+//program for change page color using button click
+let btn=document.getElementById("btn1");
+console.log(btn);
+let butt="dark";
+btn.addEventListener("click",()=>{
+    //btn.innerText="change text";
+    console.log(butt);
+    if(butt==="dark")
+    {
+    document.body.style.backgroundColor="black";
+    butt="light";
+    }
+    
+    else{
+        document.body.style.backgroundColor="white";
+        butt="dark";
+    }
+    
+})
+
+
+
+
